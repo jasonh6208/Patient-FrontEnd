@@ -1,7 +1,6 @@
-import { Patient } from './../service/httpclient.service';
+import { Patient } from './../app.module';
 import { Component, OnInit } from '@angular/core';
 import { HttpClientService } from '../service/httpclient.service';
-
 
 @Component({
   selector: 'app-patient',
